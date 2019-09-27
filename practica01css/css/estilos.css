@@ -10,5 +10,39 @@ body{
     border: 1px solid red;
     margin: 0px auto;
     max-width: 1024px;
-    
+}
+header{
+    background: #c9dfea;
+}
+header nav ul li{
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+header nav{
+    background: #0270bf;
+    padding: 0.5px 0;
+    width: 99%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+header nav form{
+    float: right;
+    margin-top: -40px;
+    margin-right: 7px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="button"]{
+    background: #62bb3d;
+    border: 1px solid green;
+    color: white;
+}
+#logo{
+    margin-top: -150px;
+}
+#seccion01 article{
+    margin: 0 auto;
 }
