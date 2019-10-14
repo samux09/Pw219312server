@@ -1,0 +1,23 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+header nav ul{
+    margin-left: -25px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#hrHead{
+    border-top: dashed;
+}
+#hrAbajo{
+    border-top: dashed;
+}
+#imgFb{
+    width: 15%;
+}
