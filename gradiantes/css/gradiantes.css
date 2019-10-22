@@ -1,0 +1,65 @@
+article{
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+#uno{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+    background: -webkit-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+    background: -moz-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+    background: -ms-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+    background: linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+}
+#dos{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(to left,red,yellow);
+    background: -webkit-linear-gradient(to left,red,yellow);
+    background: -moz-linear-gradient(to left,red,yellow);
+    background: -ms-linear-gradient(to left,red,yellow);
+    background: -linear-gradient(to left,red,yellow);
+}
+#tres{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(to right,red,yellow);
+    background: -webkit-linear-gradient(to right,red,yellow);
+    background: -moz-linear-gradient(to right,red,yellow);
+    background: -ms-linear-gradient(to right,red,yellow);
+    background: -linear-gradient(to right,red,yellow);
+}
+#tepongo{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(to right bottom,red,yellow);
+    background: -webkit-linear-gradient(to right bottom,red,yellow);
+    background: -moz-linear-gradient(to right bottom,red,yellow);
+    background: -ms-linear-gradient(to right bottom,red,yellow);
+    background: -linear-gradient(to right bottom,red,yellow);
+}
+#cinco{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(to left bottom,red,yellow);
+    background: -webkit-linear-gradient(to left bottom,red,yellow);
+    background: -moz-linear-gradient(to left bottom,red,yellow);
+    background: -ms-linear-gradient(to left bottom,red,yellow);
+    background: -linear-gradient(to left bottom,red,yellow);
+}
+#seis{
+    /* Si no soporta gradiantes */
+    background: red;
+    background: -o-linear-gradient(90deg,red,yellow,blue);
+    background: -webkit-linear-gradient(90deg,red,yellow,blue);
+    background: -moz-linear-gradient(90deg,red,yellow,blue);
+    background: -ms-linear-gradient(90deg,red,yellow,blue);
+    background: -linear-gradient(90deg,red,yellow),blue;
+}
+.texto{
+    position: relative;
+    top: 15px;
+}

@@ -1,0 +1,15 @@
+section article table{
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    width: 180px;
+}
+section article table input{
+    text-align: right;
+    width: 90%;
+}
+section article table button{
+    width: 30px;
+}
+section article table td{
+    text-align: center;
+}
