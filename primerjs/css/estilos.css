@@ -2,6 +2,7 @@ section article table{
     border-radius: 5px;
     box-shadow: 5px 5px black;
     width: 180px;
+    background-color: aqua;
 }
 section article table input{
     text-align: right;
