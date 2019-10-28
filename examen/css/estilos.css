@@ -1,0 +1,81 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+header nav{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+header nav img{
+    position: relative;
+    width: 2%;
+    top: 5px;
+}
+section article{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+#articleIzquierdo{
+    width: 69%;
+}
+section article img{
+    position: relative;
+}
+section article p{
+    color: gray;
+    font-size: 0.66em;
+    width: 85%;
+    margin-left: 90px;
+}
+#leyendaImg{
+    color: gray;
+    margin-left: -55px;
+    margin-bottom: 20px;
+    font-size: 0.7em;
+}
+#imgPlanta{
+    width: 80%;
+    margin-left: 75px;
+}
+#imgTela{
+    width: 65%;
+}
+#imgPersona{
+    width: 70%;
+}
+
+#spanPerron{
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    top: -210px;
+}
+#hrArt{
+    border:         none;
+    border-left:    3px solid black;
+    height:         100vh;
+    width:          1px;  
+    position: relative;
+    margin-left: 0px;
+    margin-right: 5px;
+    top: -510px;
+    right: -700px;
+}
+#titulo{
+    margin-left: 295px;
+    margin-right: 310px;
+}
+#hrHead{
+
+}
+.blanquita{
+    color: gray;
+}
+.tiHead{
+    font-weight: bold;
+    font-size: 1.1em;
+}
